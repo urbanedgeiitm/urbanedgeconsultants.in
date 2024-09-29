@@ -66,6 +66,30 @@ nav ul li a:hover {
     line-height: 1.5;
 }
 
+/* Internship Section */
+#internship {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#internship h2 {
+    font-size: 2rem;
+    color: #f0a500;
+}
+
+#internship p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+#internship img {
+    display: block;
+    margin: 0 auto;
+}
+
 /* Services Section */
 #services {
     background-color: #f9f9f9;

@@ -311,57 +311,65 @@ nav ul li a:hover {
 }
 
 /* Style for pNEUMA section */
-#pneuma-section {
-    background-image: url('https://raw.githubusercontent.com/urbanedgeiitm/urbanedgeconsultants.in/main/pineuma.png');
+.section-background {
     background-size: cover;
     background-position: center;
-    padding: 60px 20px;
+    padding: 40px;
+    color: white;
     text-align: center;
-    color: #fff;
-    position: relative;
 }
 
-#pneuma-section::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5); /* Adds a dark overlay for text contrast */
+#earthcam {
+    background-image: url('https://github.com/urbanedgeiitm/urbanedgeconsultants.in/blob/main/nwwb.png');
 }
 
-#pneuma-section h2 {
+#pneuma {
+    background-image: url('https://github.com/urbanedgeiitm/urbanedgeconsultants.in/blob/main/pineuma.png');
+    margin-top: 30px;
+}
+
+.section-background h2 {
     font-size: 2em;
-    font-weight: bold;
-    color: #f8f9fa;
-    margin-bottom: 15px;
-    position: relative;
-    z-index: 1;
+    margin-bottom: 20px;
 }
 
-#pneuma-section p {
+.section-background p {
     font-size: 1.1em;
-    line-height: 1.6;
+    max-width: 600px;
     margin: 0 auto 20px;
-    max-width: 700px;
-    color: #d1d1d1;
-    position: relative;
-    z-index: 1;
 }
 
-.pneuma-btn {
+.section-background .btn {
     display: inline-block;
     padding: 12px 24px;
     font-size: 1em;
-    color: #343a40;
-    background-color: #ffc107; /* Bright color for contrast */
-    text-decoration: none;
-    border-radius: 4px;
     font-weight: bold;
-    position: relative;
-    z-index: 1;
+    color: #fff;
+    background-color: #ff5733; /* Bright color for better contrast */
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
 }
+
+.section-background .btn:hover {
+    background-color: #e04e2f;
+}
+
+.pneuma-logo {
+    width: 100px; /* Adjust size as needed */
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+.download-btn {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.download-btn:hover {
+    background-color: #e0a806;
+}
+
 
 .pneuma-btn:hover {
     background-color: #e0a800;

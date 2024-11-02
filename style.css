@@ -383,19 +383,24 @@ nav ul li a:hover {
     color: #212529;
 }
 /* Styles for UAV Trajectory section */
-#uav-trajectory {
-    background-image: url('https://raw.githubusercontent.com/urbanedgeiitm/urbanedgeconsultants.in/main/sn.png'); /* Adjusted URL */
+/* General section styling */
+section {
+    position: relative;
+    padding: 80px 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* EarthCam Section */
+#earthcam {
+    background-image: url('https://urbanedgeiitm.github.io/urbanedgeconsultants.in/nwwb.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 80px 20px;
-    color: #ffffff;
-    text-align: center;
-    position: relative;
 }
 
-#uav-trajectory .overlay {
-    background-color: rgba(0, 0, 0, 0.7); /* Dark overlay for readability */
+#earthcam .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 40px;
     border-radius: 10px;
     max-width: 800px;
@@ -403,33 +408,76 @@ nav ul li a:hover {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
 }
 
+#earthcam h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #ffdc00;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+#earthcam p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#earthcam .btn {
+    background-color: #ff5733;
+    color: #ffffff;
+    padding: 12px 25px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#earthcam .btn:hover {
+    background-color: #e04e2f;
+}
+
+/* UAV Trajectory Section */
+#uav-trajectory {
+    background-image: url('https://github.com/urbanedgeiitm/urbanedgeconsultants.in/blob/main/sn.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 60px; /* Adds spacing between sections */
+}
+
+#uav-trajectory .overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+}
+
 #uav-trajectory h2 {
     font-size: 2.5em;
-    margin-bottom: 20px;
-    font-weight: bold;
-    color: #ffdc00; /* Highlighted color for title */
+    color: #ffdc00;
+    margin-bottom: 15px;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
 }
 
 #uav-trajectory p {
     font-size: 1.2em;
-    margin-bottom: 30px;
-    line-height: 1.5;
+    margin-bottom: 20px;
     color: #ffffff;
 }
 
 #uav-trajectory .btn {
-    background-color: #ff5733; /* Bright color for button */
-    color: #ffffff;
-    padding: 12px 24px;
+    background-color: #ffc107;
+    color: #333333;
+    padding: 12px 25px;
     font-size: 1.2em;
-    font-weight: bold;
     border-radius: 5px;
+    font-weight: bold;
     text-decoration: none;
     transition: background-color 0.3s ease;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
 }
 
 #uav-trajectory .btn:hover {
-    background-color: #e04e2f;
+    background-color: #e0a806;
 }

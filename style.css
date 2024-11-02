@@ -382,4 +382,51 @@ nav ul li a:hover {
     background-color: #e0a800;
     color: #212529;
 }
+/* Styles for UAV Trajectory section */
+#uav-trajectory {
+    background-image: url('https://github.com/urbanedgeiitm/urbanedgeconsultants.in/blob/main/sn.png'); /* New background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 20px;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+
+#uav-trajectory .overlay {
+    background-color: rgba(0, 0, 0, 0.7); /* Dark overlay for readability */
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#uav-trajectory h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #ffdc00; /* Highlighted color for title */
+}
+
+#uav-trajectory p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+#uav-trajectory .btn {
+    background-color: #ff5733; /* Bright color for button */
+    color: #ffffff;
+    padding: 12px 24px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#uav-trajectory .btn:hover {
+    background-color: #e04e2f;
+}
 

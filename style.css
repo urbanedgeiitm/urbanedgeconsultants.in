@@ -255,15 +255,17 @@ nav ul li a:hover {
         max-width: 400px;
     }
 }
+/* EarthCam Section */
 #earthcam {
     background-image: url('https://urbanedgeiitm.github.io/urbanedgeconsultants.in/nwwb.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 40px;
+    padding: 60px 20px;
     color: #ffffff;
     text-align: center;
     position: relative;
+    margin-bottom: 30px;
 }
 
 #earthcam::before {
@@ -273,7 +275,7 @@ nav ul li a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7); /* Increased opacity for darker overlay */
+    background-color: rgba(0, 0, 0, 0.6);
     z-index: 1;
 }
 
@@ -285,7 +287,7 @@ nav ul li a:hover {
 }
 
 #earthcam h2 {
-    font-size: 2.2em;
+    font-size: 2.5em;
     margin-bottom: 10px;
     font-weight: bold;
 }
@@ -296,7 +298,7 @@ nav ul li a:hover {
 }
 
 #earthcam .btn {
-    background-color: #ff6f61; /* Brighter color for button */
+    background-color: #ff6f61;
     color: #ffffff;
     padding: 12px 25px;
     text-decoration: none;
@@ -310,64 +312,69 @@ nav ul li a:hover {
     background-color: #e05a4f;
 }
 
-/* Style for pNEUMA section */
-.section-background {
+/* pNEUMA Section */
+#pneuma {
+    background-image: url('https://github.com/urbanedgeiitm/urbanedgeconsultants.in/raw/main/pineuma.png');
     background-size: cover;
     background-position: center;
-    padding: 40px;
-    color: white;
+    background-repeat: no-repeat;
+    padding: 60px 20px;
+    color: #ffffff;
     text-align: center;
+    position: relative;
 }
 
-#earthcam {
-    background-image: url('https://github.com/urbanedgeiitm/urbanedgeconsultants.in/blob/main/nwwb.png');
+#pneuma::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
 }
 
-#pneuma {
-    background-image: url('https://github.com/urbanedgeiitm/urbanedgeconsultants.in/blob/main/pineuma.png');
-    margin-top: 30px;
+#pneuma h2,
+#pneuma p,
+#pneuma .btn {
+    position: relative;
+    z-index: 2;
 }
 
-.section-background h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-.section-background p {
-    font-size: 1.1em;
-    max-width: 600px;
-    margin: 0 auto 20px;
-}
-
-.section-background .btn {
-    display: inline-block;
-    padding: 12px 24px;
-    font-size: 1em;
+#pneuma h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
     font-weight: bold;
-    color: #fff;
-    background-color: #ff5733; /* Bright color for better contrast */
+}
+
+#pneuma p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#pneuma .btn {
+    display: inline-block;
+    background-color: #ffc107;
+    color: #333;
+    padding: 12px 24px;
+    font-size: 1.2em;
+    font-weight: bold;
     border-radius: 5px;
     text-decoration: none;
-    margin-top: 10px;
+    transition: background-color 0.3s ease;
 }
 
-.section-background .btn:hover {
-    background-color: #e04e2f;
+#pneuma .btn:hover {
+    background-color: #e0a806;
 }
 
 .pneuma-logo {
-    width: 100px; /* Adjust size as needed */
+    width: 100px;
     vertical-align: middle;
     margin-left: 8px;
-}
-
-.download-btn {
-    background-color: #ffc107;
-    color: #333;
-}
-
-.download-btn:hover {
-    background-color: #e0a806;
 }
 
 
